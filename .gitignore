@@ -1,0 +1,12 @@
+# ignore data, models, and logs
+data/
+models/
+*.log
+
+# ignore virtual environment
+venv/
+.env
+
+# ignore dvc cache and mlflow artifacts
+.dvc/
+mlruns/
